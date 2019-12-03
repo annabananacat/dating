@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebraty Dates!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebraty Dates!</h1>
+
+      <p>To match you with a celebraty, we need a little information about yoursrelf.</p>
+
+      <form id="Date">
+        <label for="interests">Interests</label>
+        <input id="interests" type="text">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+
+        <button type="submit" class="btn">Find my mate!</button>
+      </form>
+
+      <div id="match">
+        <p>You will have matched with <span id="name"></span>. Have a great life!</p>
+      </div>
+    </div>
+  </body>
+</html>
